@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degradê</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>
+        Degradê
+    </h1>
+
+    <h2><a href="index.html" rel="prev" target="_self">Voltar para a página 1 (Cores)</a></h2>
+
+    <p>
+        Como fazer um degradê:
+    </p>
+    
+    <ul>
+        <li>Na tag que será personalizada, crie o estilo <mark>background-image: linear-gradient();</mark></li><br>
+
+        <img src="img/amostra-codigo-5.png" alt="amostra-codigo-5"><br>
+
+        <li>
+            -45deg = ângulo do gradiente. Também pode ser definido escrevendo uma direção, como por exemplo: to right.
+        </li>
+        <li>
+            Seguido de vírgulas, são inserdas as cores. Podem ser adicionadas várias cores.
+        </li>
+        <li>
+            Depois do linear-gradient(#);, podemos inserir o background-attachment: #; com o valor de <mark>fixed</mark>, para que o elemento não se mova com a barra de rolagem.
+        </li>
+        <li>
+            O elemento pode ficar repartido em segmentos, para eliminar isso adicionamos o height: #; com o valor de 100%.
+        </li>
+        <li>
+            Podemos configurar o tamanho que uma cor parte do degradê ocupa na tela, basta colocar um valor de % após o código hexadecimal.
+        </li>
+        <li>
+            Para substituir o degradê linear por um radial, basta mudar o estilo de linear-gradient(#); para radial-gradient(#);.
+        </li>
+    </ul>
+
+    <h1>Configurações globais</h1>
+    <p>
+        Para inserir uma configuração global no seu estilo CSS basta criar um estilo <mark>*</mark>, e essa configuração de estilo se aplicará a todos os elementos da página.
+    </p>
+    <img src="img/amostra-codigo-6.png" alt="amostra-codigo-6" width="500px">
+
+</body>
+</html>
